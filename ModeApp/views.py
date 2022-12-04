@@ -2,12 +2,12 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from django.template import loader
 from .models import *
-
-
+#Test
 
 def index(request):
     template = loader.get_template('ModeAppPage.html')
     return HttpResponse(template.render())
+
 
 def happy(request):
     template = loader.get_template('HappyPage.html')
