@@ -1,0 +1,73 @@
+body {
+    padding: 20px;
+    background-image: url("Happy_Background_Pic2.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    }
+
+b {
+    font-family: Comic Sans MS, sans-serif;
+    font-size: 25px;
+}
+
+button {
+    margin-top: 10px;
+    cursor: pointer;
+    width: 49.86%;
+    padding: 25px;
+    background-color: rgba(238, 236, 69, 0.5);
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: .5em;
+    text-align: center;
+}
+
+.container {
+    width: 1200px;
+    height: 480px;
+    padding: 30px;
+    display: flex;
+    margin: 0 auto;
+    gap: 16px;
+}
+
+div {
+    font-family: Comic Sans MS, sans-serif;
+    font-size: 25px;
+}
+
+div.author {
+    background-color: rgba(220, 210, 82, 0.5);
+    width: 300px;
+    height: 50px;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: .5em;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    position:fixed;
+    right: 300px;
+    top:428px;
+}
+
+div.phrase {
+    background-color: rgba(220, 210, 82, 0.5);
+    width: 600px;
+    height: 420px;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: .5em;
+    padding: 25px;
+}
+
+div.picture {
+    background-color: rgba(220, 210, 82, 0.5);
+    width: 250px;
+    height: 290px;
+    border: 6px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    right: 355px;
+    top:70px;
+}
